@@ -167,11 +167,74 @@ section p {
     font-size: 1em;
 }
 
-#postup {
+
+
+
+#postup_container {
     display: flex;
     flex-direction: column;
+    text-align: center; 
 }
 
-#postup #postup_uvod {
+#postup_container #last_para {
+    margin: 0 15%;
+}
+
+#postup_container #postup_uvod {
     font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#postup_container #postup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10% 5%;
+}
+
+#postup_container #postup .postup_body {
+    width: 25%;
+    text-align: left;
+}
+
+#postup_container #postup svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0;
+    left: -5%;
+}
+
+#postup_container #postup svg:nth-of-type(2) {
+    left: -6%;
+}
+
+#postup_container #postup svg:nth-of-type(3) {
+    left: -7%;
+}
+
+
+
+#referencie {
+    text-align: center;
+}
+
+#referencie h5 {
+    font-size: 1em;
+    color: black;
+    margin-bottom: 15vh;
+}
+
+#referencie a {
+    display: block;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #EE1000;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    margin-bottom: 1em;
 }
